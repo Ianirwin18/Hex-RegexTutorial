@@ -12,7 +12,7 @@ The regex that we are going to be solving is: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
+- [Grouping Constructs and OR Operator](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
@@ -38,16 +38,13 @@ The next quantifier used is `{n}`, which is used twice `({6} and {3})`. This met
 
 ### Grouping Constructs and OR Operator
 
-This regex has one big group: `([a-f0-9]{6}|[a-f0-9]{3})`. This grouping also uses an OR operator.
+This regex has one big group: `([a-f0-9]{6}|[a-f0-9]{3})`. This grouping also uses an OR operator `|`. This divides the expression into two parts `[a-f0-9]{6}` and `[a-f0-9]{3}`. So the regex will match any of the two expressions.
 
-### Bracket Expressions
+OR operators are also used to validate email domains like .com, .net, etc...
 
 ### Character Classes
 
-### Flags
-
-### Character Escapes
-
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+- Ian Irwin
+- Github: https://github.com/Ianirwin18
