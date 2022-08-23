@@ -13,10 +13,7 @@ The regex that we are going to be solving is: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Grouping Constructs and OR Operator](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
 
 ## Regex Components
 
