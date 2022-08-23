@@ -44,6 +44,8 @@ OR operators are also used to validate email domains like .com, .net, etc...
 
 ### Character Classes
 
+This regex uses one character class but it is repeated twice: `[a-f0-9]`. This character class will match any other character enclosed in the brakets. For example: [iop] with match "i", "o" and "p". The regex has two ranges: `a-f` and `0-9`. So any character "a-f" and "0-9" will match.
+
 ## Author
 
 - Ian Irwin
